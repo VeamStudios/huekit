@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-@IBDesignable
 open class ColorSquarePicker: UIControl {
 
 	private let contentInsetX: CGFloat = 20

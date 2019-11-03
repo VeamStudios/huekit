@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-@IBDesignable
 open class ColorBarPicker: UIControl {
 	
 	private var isVertical: Bool = false {

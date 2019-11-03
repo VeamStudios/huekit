@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-@IBDesignable
 open class ColorBarView: UIView {
 
 	private static func createContentImage() -> CGImage? {

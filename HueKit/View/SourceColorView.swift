@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-@IBDesignable
 open class SourceColorView: UIControl {
 
 	@IBInspectable

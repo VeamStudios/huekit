@@ -11,7 +11,6 @@ import UIKit
 
 open class ColorIndicatorView: UIView {
 	
-	@IBInspectable
 	open var color: UIColor = .black {
 		didSet {
 			

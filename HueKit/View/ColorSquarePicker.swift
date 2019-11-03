@@ -29,7 +29,6 @@ open class ColorSquarePicker: UIControl {
 		return ColorIndicatorView(frame: indicatorRect)
 	}()
 	
-	@IBInspectable
 	public var hue: CGFloat = 0.0 {
 		didSet {
 			if oldValue != hue {
@@ -38,7 +37,6 @@ open class ColorSquarePicker: UIControl {
 		}
 	}
 
-	@IBInspectable
 	public var value: CGPoint = .zero {
 		didSet {
 			if oldValue != value {

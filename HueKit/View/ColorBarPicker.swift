@@ -31,7 +31,6 @@ open class ColorBarPicker: UIControl {
 	private static let indicatorSizeInactive = CGSize(width: 24.0, height: 24.0)
 	private static let indicatorSizeActive = CGSize(width: 40.0, height: 40.0)
 	
-	@IBInspectable
 	open var hue: CGFloat {
 		get {
 			if isVertical {

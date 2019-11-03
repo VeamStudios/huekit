@@ -12,7 +12,6 @@ open class ColorSquareView: UIImageView {
 
 	private var drawnHue: CGFloat = 0.0
 	
-	@IBInspectable
 	open var hue: CGFloat = 0.0 {
 		didSet {
 

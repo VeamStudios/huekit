@@ -11,7 +11,6 @@ import UIKit
 
 open class SourceColorView: UIControl {
 
-	@IBInspectable
 	open var isTrackingInside: Bool = false {
 		didSet {
 			if oldValue != isTrackingInside {
@@ -20,7 +19,6 @@ open class SourceColorView: UIControl {
 		}
 	}
 	
-	@IBInspectable
 	open var dontShrinkWhenPressed: Bool = false {
 		didSet {
 			if oldValue != dontShrinkWhenPressed {

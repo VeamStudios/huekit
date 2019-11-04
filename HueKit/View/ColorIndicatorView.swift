@@ -9,10 +9,8 @@
 import Foundation
 import UIKit
 
-@IBDesignable
 open class ColorIndicatorView: UIView {
 	
-	@IBInspectable
 	open var color: UIColor = .black {
 		didSet {
 			
